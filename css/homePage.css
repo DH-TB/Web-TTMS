@@ -1,0 +1,35 @@
+#login{
+    width:420px;
+    height:320px;
+    background-color: #003300;
+    background-image:url(1.jpg);
+    background-repeat:no-repeat;
+    margin-top:200px;
+    padding-top: 20px;
+    padding-left:45px;
+}
+#table,#table1,#table2,#table3,#table4{
+    width:1050px;
+}
+.img-rounded{
+    height: 25px;
+    width: 25px;
+    margin-top: 25px;
+    background-color:rosybrown;
+}
+
+input[type=checkbox]{
+    -webkit-appearance: none;
+}
+
+#check{
+    height: 25px;
+    width: 25px;
+    background-color:rosybrown;
+}
+
+#checked {
+    height: 25px;
+    width: 25px;
+    background-color:forestgreen;
+}

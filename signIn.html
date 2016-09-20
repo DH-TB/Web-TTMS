@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/homePage.css">
+    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.css">
+    <script src="js/signIn.js"></script>
+</head>
+<body>
+<form action="homePage.html" method="post" onsubmit="return check();">
+    <div class="center-block" id="login">
+        <img src="1.jpg" class="img-circle col-lg-offset-3">
+        <div class="col">
+            <div class="input-group col-lg-10">
+                <span class="input-group-addon">昵称</span>
+                <input type="text" id='userName' class="form-control">
+            </div>
+            <br/>
+            <div class="input-group col-lg-10">
+                <span class="input-group-addon">密码</span>
+                <input type="password" id='password' class="form-control">
+            </div>
+            <br/>
+            <input type="reset" class="btn btn-default col-lg-2 col-lg-offset-1" value="注册"/>
+            <input type="submit" class="btn btn-primary col-lg-2 col-lg-offset-4" value="登陆"/>
+        </div>
+
+    </div>
+
+</form>
+</body>
+</html>
